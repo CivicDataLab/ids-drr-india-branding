@@ -1,0 +1,20 @@
+{
+  "name": "ids-drr-branding-tests",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Test toolchain for ids-drr-branding. Kept separate so the branding package's own package.json has no devDependencies — consumers linking via file: never pull in vitest, testing-library, jsdom, etc.",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "jsdom": "^29.0.2",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "vitest": "^4.1.5"
+  }
+}
