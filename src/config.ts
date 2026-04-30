@@ -89,4 +89,5 @@ export const config: DeploymentConfig = {
   docsLink:
     'https://ids-drr.readthedocs.io/en/latest/architecture/overview.html',
   reportsEnabled: true,
+  aboutUsEnabled: true,
 };
