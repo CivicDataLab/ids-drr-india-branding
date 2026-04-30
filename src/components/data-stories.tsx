@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import {
   Carousel,
@@ -102,7 +101,8 @@ export const DataStories = () => {
                 >
                   <div className="flex flex-col gap-4 ">
                     <div className="w-full">
-                      <Image
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
                         width={180}
                         height={192}
                         src={item.image}
