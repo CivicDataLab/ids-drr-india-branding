@@ -8,9 +8,6 @@ export const AboutText = 'About IDS-DRR';
 export const AboutTextContentTwo =
   'It is a data analytics and risk mapping platform to help make informed and impactful decisions, prioritise resource allocation, plan and manage funds intended for disaster risk reduction and climate mitigation. The platform enables effective solutions and sustainable action for  vulnerable geographies.';
 
-export const DataStoriesText =
-  'Read about the impact, methods, and successes in using data for DRR';
-
 export const IntroTextContentOne =
   'Intelligent Data Solution for Disaster Risk Reduction (IDS-DRR) is an open-source platform that helps state-level and district-level Disaster Management Authorities to make timely data-driven decisions, prioritise expenditure of public funds and conduct public procurement in a manner that strengthens long-term disaster risk reduction and protects the most vulnerable people from the adverse effects of extreme weather events and climate change. ';
 export const IntroTextContentTwo =

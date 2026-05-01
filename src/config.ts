@@ -73,8 +73,48 @@ export const config: DeploymentConfig = {
       updateFrequency: 'NA',
       referencePeriodFrom: '2017-01',
       referencePeriodTo: '2024-08',
-      url: 'https://supersetv2.civicdatalab.in/superset/dashboard/p/Od0XQzvMNmr/',
       tags: ['Financial Data', 'Government Response'],
+      url: 'https://supersetv2.civicdatalab.in/superset/dashboard/p/Od0XQzvMNmr/',
+    },
+  ],
+  stories: [
+    {
+      title:
+        'Using Data for Disaster Risk Reduction(DRR) and enhanced Climate Adaptation',
+      description:
+        'Today, it is essential that we look at Disaster Risk Reduction (DRR) that goes beyond rescue and relief for building resilient communities',
+      date: '2024-05-16',
+      image:
+        'https://miro.medium.com/v2/resize:fit:720/format:webp/1*MYJWdHX-BuGX0UB5bgEbkg.jpeg',
+      url: 'https://medium.com/civicdatalab/using-data-for-disaster-risk-reduction-drr-and-enhanced-climate-adaptation-f2465a91446c',
+    },
+    {
+      title: 'Establishing a Resilient Climate Data Environment',
+      description:
+        'In order to harness the potential of the data-for-public-good ecosystem for addressing the growing impact of Climate Change, data-based',
+      date: '2024-04-01',
+      image:
+        'https://miro.medium.com/v2/resize:fit:720/format:webp/1*_UlVG5lEb8ChOgFrthHp_w.jpeg',
+      url: 'https://medium.com/civicdatalab/establishing-a-resilient-climate-data-environment-ebe680ba7a9a',
+    },
+    {
+      title: 'Critical Role of Local Communities for DRR',
+      description:
+        'Evidence based interventions for climate action and disaster risk reduction (DRR) must engage communities to ensure resilience.',
+      date: '2024-09-25',
+      image:
+        'https://miro.medium.com/v2/resize:fit:720/format:webp/0*RWVURinKnqLkvZbZ',
+      url: 'https://medium.com/civicdatalab/critical-role-of-local-communities-for-drr-3cae00f6c89c',
+    },
+    {
+      title:
+        'Introducing ‘Intelligent (Open) Data Ecosystem for Assam — Flood Response and Management (IDEA-FRM)’',
+      description:
+        'How we identified and curated relevant datasets which can be used to study, model and address the issue of floods in the state of Assam.',
+      date: '2023-05-22',
+      image:
+        'https://miro.medium.com/v2/resize:fit:720/format:webp/1*KzBOx8poqVyG4m1JY4PsMQ.jpeg',
+      url: 'https://medium.com/civicdatalab/introducing-intelligent-open-data-ecosystem-for-assam-flood-response-and-management-ca5481908dd4',
     },
   ],
   languages: [
@@ -89,6 +129,8 @@ export const config: DeploymentConfig = {
     'https://drive.google.com/file/d/1TerjJtQrWxziKJ1E5BvfvRELtWJWRw2M/view?usp=drive_link',
   docsLink:
     'https://ids-drr.readthedocs.io/en/latest/architecture/overview.html',
-  reportsEnabled: true,
-  aboutUsEnabled: true,
+  features: {
+    aboutUs: true,
+    reports: true,
+  },
 };

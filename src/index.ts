@@ -1,8 +1,10 @@
+import type { Exports } from 'ids-drr-branding-types';
+
 export { AboutPage } from './about-us/page';
-export { About } from './components/about';
-export { Partners } from './components/partners';
-export { DataStories } from './components/data-stories';
+export { OutroSection } from './components/outro-section';
 export { Footer } from './components/footer';
 export { Credits } from './components/credits';
 export { PartnerLogos } from './components/partner-logos';
 export { config } from './config';
+
+export const IntroSection: Exports['IntroSection'] = undefined;
