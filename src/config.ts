@@ -127,6 +127,8 @@ export const config: DeploymentConfig = {
   },
   userGuideLink:
     'https://drive.google.com/file/d/1TerjJtQrWxziKJ1E5BvfvRELtWJWRw2M/view?usp=drive_link',
+  userManualLink:
+    'https://ids-drr-user.readthedocs.io/en/latest/',
   docsLink:
     'https://ids-drr.readthedocs.io/en/latest/architecture/overview.html',
   features: {
