@@ -12,6 +12,7 @@
 
 import type { DeploymentConfig } from 'ids-drr-branding-types';
 
+import glossaryCsv from '../data/glossary.csv';
 import appleIcon from './assets/apple-touch-icon.png';
 import favicon from './assets/favicon.ico';
 import heroBackground from './assets/brand/heroBackground.png';
@@ -131,9 +132,9 @@ export const config: DeploymentConfig = {
     'https://ids-drr-user.readthedocs.io/en/latest/',
   docsLink:
     'https://ids-drr.readthedocs.io/en/latest/architecture/overview.html',
+  glossaryCsv,
   features: {
     aboutUs: true,
     reports: true,
-    glossary: true,
   },
 };
