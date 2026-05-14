@@ -1,11 +1,11 @@
-import { About } from './about';
-import { Partners } from './partners';
+import { About } from "./about";
+import { Partners } from "./partners";
 
 export function OutroSection() {
-  return (
-    <>
-      <About />
-      <Partners />
-    </>
-  );
+    return (
+        <>
+            <About />
+            <Partners />
+        </>
+    );
 }

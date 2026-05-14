@@ -1,8 +1,9 @@
-'use client';
+"use client";
+
 //barrel file
 
-export { Introduction } from './introduction';
-export { About } from './about';
-export { CollaboratingPartner } from './collaboratingPartner';
-export { SupportedBy } from './supportedBy';
-export { TheTeam } from './teams';
+export { About } from "./about";
+export { CollaboratingPartner } from "./collaboratingPartner";
+export { Introduction } from "./introduction";
+export { SupportedBy } from "./supportedBy";
+export { TheTeam } from "./teams";

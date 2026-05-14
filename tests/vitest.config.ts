@@ -1,6 +1,6 @@
-import path from 'node:path';
-import { fileURLToPath } from 'node:url';
-import { defineConfig } from 'vitest/config';
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+import { defineConfig } from "vitest/config";
 
 // Tests, their toolchain (devDeps below), and the peer-package stubs
 // all live under tests/ so the branding package's root package.json
@@ -15,28 +15,28 @@ const stub = (file: string) => path.resolve(here, file);
 // the consumer. Alias each to a local stub so Vite can resolve them
 // without installing the real peer packages just to run unit tests.
 export default defineConfig({
-  test: {
-    environment: 'jsdom',
-    globals: true,
-    setupFiles: [stub('setup.ts')],
-  },
-  resolve: {
-    alias: [
-      { find: 'opub-ui', replacement: stub('opub-ui-stub.tsx') },
-      { find: 'next/image', replacement: stub('next-image-stub.tsx') },
-      { find: 'next/link', replacement: stub('next-link-stub.tsx') },
-      {
-        find: /^.*\.(png|jpg|jpeg|svg|webp)$/,
-        replacement: stub('asset-stub.ts'),
-      },
-    ],
-  },
-  // Tests import from ../src/, which is outside vitest's default
-  // root (this tests/ dir). Allow Vite to serve files from the
-  // branding package root.
-  server: {
-    fs: {
-      allow: [path.resolve(here, '..')],
+    test: {
+        environment: "jsdom",
+        globals: true,
+        setupFiles: [stub("setup.ts")],
     },
-  },
+    resolve: {
+        alias: [
+            { find: "opub-ui", replacement: stub("opub-ui-stub.tsx") },
+            { find: "next/image", replacement: stub("next-image-stub.tsx") },
+            { find: "next/link", replacement: stub("next-link-stub.tsx") },
+            {
+                find: /^.*\.(png|jpg|jpeg|svg|webp)$/,
+                replacement: stub("asset-stub.ts"),
+            },
+        ],
+    },
+    // Tests import from ../src/, which is outside vitest's default
+    // root (this tests/ dir). Allow Vite to serve files from the
+    // branding package root.
+    server: {
+        fs: {
+            allow: [path.resolve(here, "..")],
+        },
+    },
 });
