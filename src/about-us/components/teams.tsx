@@ -232,8 +232,8 @@ export function TheTeam() {
                 </div>
                 {/* <div className="mt-6 grid grid-cols-1 gap-10 rounded-2 md:grid-cols-2 lg:grid-cols-3 "> */}
                 <div className="mt-6 grid grid-cols-2 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
-                    {teamMembers.map((member, index) => (
-                        <div key={index} className={styles.card}>
+                    {teamMembers.map((member) => (
+                        <div key={member.name} className={styles.card}>
                             <Image
                                 src={member.imageUrl}
                                 alt={`${member.name}'s picture`}

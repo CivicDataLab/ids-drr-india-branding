@@ -15,6 +15,7 @@ export function Credits() {
             <Text variant="bodySm" color="onBgDefault" className="mt-2 block md:mt-3">
                 A DataSpace product by{" "}
                 <a
+                    href="https://civicdatalab.in/"
                     className="text-baseIndigoSolid1 underline"
                     onClick={(event) => handleRedirect(event, "https://civicdatalab.in/")}
                 >
