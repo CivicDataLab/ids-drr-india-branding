@@ -5,3 +5,8 @@ jobs:
     uses: open-contracting/.github/.github/workflows/lint.yml@main
     permissions:
       contents: read
+    with:
+      # Defer indentation to biome format.
+      ocds-noindent: 'yes'
+      # glossary.csv is a Google Sheets export.
+      ocds-no-csv: 'yes'
