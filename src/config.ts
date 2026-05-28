@@ -124,6 +124,21 @@ export const config: DeploymentConfig = {
     userManualLink: "https://ids-drr-user.readthedocs.io/en/latest/",
     docsLink: "https://ids-drr.readthedocs.io/en/latest/architecture/overview.html",
     glossaryCsv,
+    tileLayers: {
+        light: {
+            url: "https://api.mapbox.com/styles/v1/tech-civicdatalab/cm16if6hx020101qyeijacngt/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoidGVjaC1jaXZpY2RhdGFsYWIiLCJhIjoiY20xNmk2Z2MyMGpldjJxcXY0NjlmcnZkZCJ9.8jTki9brBl78_VIHImdLow",
+            attribution:
+                '&copy; <a href="https://www.mapbox.com/about/maps/">Mapbox</a> | &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> | <a href="https://labs.mapbox.com/contribute/">Improve this map</a>',
+        },
+        dark: {
+            url: "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+            attribution: '&copy; <a href="https://carto.com/attributions">CARTO</a>',
+        },
+        satellite: {
+            url: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+            attribution: "Tiles &copy; Esri",
+        },
+    },
     features: {
         aboutUs: true,
         reports: true,

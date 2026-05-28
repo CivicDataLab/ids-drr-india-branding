@@ -31,6 +31,13 @@
         "emptyPrompt": "Please select a district"
       }
     },
+    "map": {
+      "layers": {
+        "light": "Light",
+        "dark": "Dark",
+        "satellite": "Satellite"
+      }
+    },
     "loading": "Loading state data...",
     "divisionHeading": "{name} District",
     "chart": {
