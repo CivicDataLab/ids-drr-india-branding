@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 
-import Image, { type StaticImageData } from "next/image";
+import Image from "next/image";
 import { Button, Text } from "opub-ui";
 import { useEffect, useRef, useState } from "react";
 import linkedinIcon from "../../assets/icons/linkedin.svg";

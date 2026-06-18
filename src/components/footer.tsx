@@ -1,9 +1,10 @@
 // import Image from "next/image";
 // import logo from "../assets/brand/logo.png";
 // import divider from "../assets/divider.svg";
+
+import Link from "next/link";
 import { Credits } from "./credits";
 import { PartnerLogos } from "./partner-logos";
-import Link from "next/link";
 
 export function Footer() {
     return (
