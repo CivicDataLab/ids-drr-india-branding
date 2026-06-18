@@ -33,8 +33,7 @@ export const PJMcPartnershipText =
     "The Patrick J. McGovern Foundation (PJMF) is a philanthropic organization dedicated to advancing artificial intelligence and data science solutions to create a thriving, equitable, and sustainable future for all. PJMF works in partnership with public, private, and social institutions to drive progress on our most pressing challenges, including digital health, climate change, broad digital access, and data maturity in the social sector.";
 
 export const CDLPartnershipTextOne =
-    "We are a research lab working at the  intersection of data, tech, design and social science to strengthen the  course of civic engagements in India.";
+    "CivicDataLab (CDL) is a multidisciplinary research lab working to strengthen data and AI for public good and enable changemakers. We work across domains including climate resilience, disaster risk reduction, governance, public finance, justice, public health, gender and inclusion, and Indian language ecosystems.";
 export const CDLPartnershipTextTwo =
-    "We work to harness the potential of open knowledge movements and better enable citizens to engage in matters of public reform.";
-export const CDLPartnershipTextThree =
-    "We aim to grow data and tech literacy of governments, non-profits,  think-tanks, media houses, universities, and more to enable data-driven  decision making at scale.";
+    "Over the last decade, CDL has developed and contributed to a range of open data, civic-tech, and AI initiatives aimed at strengthening transparency, accountability, participation, and resilience across India and the Asia-Pacific region.";
+export const CDLPartnershipTextThree = "To know more about our work, please visit ";

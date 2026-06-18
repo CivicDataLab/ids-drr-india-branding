@@ -6,5 +6,6 @@ export { Footer } from "./components/footer";
 export { OutroSection } from "./components/outro-section";
 export { PartnerLogos } from "./components/partner-logos";
 export { config } from "./config";
+export { PrivacyPolicy } from "./privacy-policy/page";
 
 export const IntroSection: Exports["IntroSection"] = undefined;
