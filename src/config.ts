@@ -141,5 +141,6 @@ export const config: DeploymentConfig = {
     features: {
         aboutUs: true,
         reports: true,
+        privacyPolicy: true,
     },
 };
