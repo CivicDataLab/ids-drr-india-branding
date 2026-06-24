@@ -13,7 +13,7 @@
     "tests"
   ],
   "dependencies": {
-    "ids-drr-branding-types": "github:CivicDataLab/ids-drr-branding-types"
+    "ids-drr-branding-types": "github:CivicDataLab/ids-drr-branding-types#multi-modules"
   },
   "peerDependencies": {
     "next": ">=15",
