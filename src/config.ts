@@ -18,14 +18,14 @@ import heroBackground from "./assets/brand/heroBackground.png";
 import heroForeground from "./assets/brand/heroForeground.png";
 import logo from "./assets/brand/logo.png";
 import favicon from "./assets/favicon.ico";
+import cloudRainIcon from "./assets/icons/cloudRain.svg";
+import sunIcon from "./assets/icons/sun.svg";
 import openGraphImage from "./assets/og.png";
 import assamIcon from "./assets/states/Assam.svg";
 import biharIcon from "./assets/states/Bihar.svg";
 import hpIcon from "./assets/states/Hp.svg";
 import odishaIcon from "./assets/states/Odisha.svg";
 import upIcon from "./assets/states/Up.svg";
-import cloudRainIcon from "./assets/icons/cloudRain.svg";
-import sunIcon from "./assets/icons/sun.svg";
 import messagesEn from "./messages/en.json";
 
 export const config: DeploymentConfig = {
@@ -41,24 +41,25 @@ export const config: DeploymentConfig = {
             slug: "assam",
             icon: assamIcon,
             status: "active",
-            modules:[
+            modules: [
                 {
-                    name:"Flood",
-                    slug:"flood",
+                    name: "Flood",
+                    slug: "flood",
                     icon: cloudRainIcon,
                     status: "active",
                     withSubDistrictSupport: true,
-                    description: "Comprehensive flood hazard analysis with historical data and current risk assessment"
+                    description:
+                        "Comprehensive flood hazard analysis with historical data and current risk assessment",
                 },
                 {
-                    name:"Heat",
-                    slug:"heat",
+                    name: "Heat",
+                    slug: "heat",
                     icon: sunIcon,
                     status: "active",
                     withSubDistrictSupport: false,
-                    description: "Heatwave intensity and duration analysis with temperature data"
-                }
-            ]
+                    description: "Heatwave intensity and duration analysis with temperature data",
+                },
+            ],
         },
         {
             name: "Himachal Pradesh",
@@ -66,96 +67,100 @@ export const config: DeploymentConfig = {
             icon: hpIcon,
             status: "active",
             overlay: () => import("./assets/geo_json/himachal-pradesh.json"),
-            modules:[
+            modules: [
                 {
-                    name:"Flood",
-                    slug:"flood",
+                    name: "Flood",
+                    slug: "flood",
                     icon: cloudRainIcon,
                     status: "active",
                     withSubDistrictSupport: true,
-                    description: "Comprehensive flood hazard analysis with historical data and current risk assessment"
+                    description:
+                        "Comprehensive flood hazard analysis with historical data and current risk assessment",
                 },
                 {
-                    name:"Heat",
-                    slug:"heat",
+                    name: "Heat",
+                    slug: "heat",
                     icon: sunIcon,
                     status: "inactive",
                     withSubDistrictSupport: false,
-                    description: "Heatwave intensity and duration analysis with temperature data"
-                }
-            ]
+                    description: "Heatwave intensity and duration analysis with temperature data",
+                },
+            ],
         },
         {
             name: "Odisha",
             slug: "odisha",
             icon: odishaIcon,
             status: "active",
-            modules:[
+            modules: [
                 {
-                    name:"Flood",
-                    slug:"flood",
+                    name: "Flood",
+                    slug: "flood",
                     icon: cloudRainIcon,
                     status: "active",
                     withSubDistrictSupport: true,
-                    description: "Comprehensive flood hazard analysis with historical data and current risk assessment"
+                    description:
+                        "Comprehensive flood hazard analysis with historical data and current risk assessment",
                 },
                 {
-                    name:"Heat",
-                    slug:"heat",
+                    name: "Heat",
+                    slug: "heat",
                     icon: sunIcon,
                     status: "active",
                     withSubDistrictSupport: false,
-                    description: "Heatwave intensity and duration analysis with temperature data"
-                }
-            ]
+                    description: "Heatwave intensity and duration analysis with temperature data",
+                },
+            ],
         },
         {
             name: "Bihar",
             slug: "bihar",
             icon: biharIcon,
             status: "active",
-            modules:[
+            modules: [
                 {
-                    name:"Flood",
-                    slug:"flood",
+                    name: "Flood",
+                    slug: "flood",
                     icon: cloudRainIcon,
                     status: "active",
                     withSubDistrictSupport: true,
-                    description: "Comprehensive flood hazard analysis with historical data and current risk assessment"
+                    description:
+                        "Comprehensive flood hazard analysis with historical data and current risk assessment",
                 },
                 {
-                    name:"Heat",
-                    slug:"heat",
+                    name: "Heat",
+                    slug: "heat",
                     icon: sunIcon,
                     status: "inactive",
                     withSubDistrictSupport: false,
-                    description: "Heatwave intensity and duration analysis with temperature data"
-                }
-            ]
+                    description: "Heatwave intensity and duration analysis with temperature data",
+                },
+            ],
         },
         {
             name: "Uttar Pradesh",
             slug: "uttar-pradesh",
             icon: upIcon,
             status: "active",
-            modules:[
+            modules: [
                 {
-                    name:"Flood",
-                    slug:"flood",
+                    name: "Flood",
+                    slug: "flood",
                     icon: cloudRainIcon,
                     status: "active",
                     withSubDistrictSupport: true,
-                    description: "Comprehensive flood hazard analysis with historical data and current risk assessment"
+                    description:
+                        "Comprehensive flood hazard analysis with historical data and current risk assessment",
                 },
                 {
-                    name:"Heat",
-                    slug:"heat",
+                    name: "Heat",
+                    slug: "heat",
                     icon: sunIcon,
                     status: "inactive",
                     withSubDistrictSupport: false,
-                    description: "Heatwave intensity and duration analysis with temperature data"
-                }
-            ]
+                    description: "Heatwave intensity and duration analysis with temperature data",
+                },
+            ],
         },
     ],
     resources: [
