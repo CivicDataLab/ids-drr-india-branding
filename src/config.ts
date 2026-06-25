@@ -16,7 +16,7 @@ import glossaryCsv from "../data/glossary.csv";
 import appleIcon from "./assets/apple-touch-icon.png";
 import heroBackground from "./assets/brand/heroBackground.png";
 import heroForeground from "./assets/brand/heroForeground.png";
-import logo from "./assets/brand/logo.png";
+import logo from "./assets/brand/logo.svg";
 import darkLogo from "./assets/brand/logo-dark.svg";
 import favicon from "./assets/favicon.ico";
 import openGraphImage from "./assets/og.png";
