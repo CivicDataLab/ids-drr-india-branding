@@ -50,6 +50,7 @@ export const config: DeploymentConfig = {
                     withSubDistrictSupport: true,
                     description:
                         "Comprehensive flood hazard analysis with historical data and current risk assessment",
+                    rootIndicatorSlug: "risk-score",
                 },
                 {
                     name: "Heat",
@@ -58,6 +59,7 @@ export const config: DeploymentConfig = {
                     status: "active",
                     withSubDistrictSupport: false,
                     description: "Heatwave intensity and duration analysis with temperature data",
+                    rootIndicatorSlug: "heat-risk-score",
                 },
             ],
         },
@@ -76,6 +78,7 @@ export const config: DeploymentConfig = {
                     withSubDistrictSupport: true,
                     description:
                         "Comprehensive flood hazard analysis with historical data and current risk assessment",
+                    rootIndicatorSlug: "risk-score",
                 },
                 {
                     name: "Heat",
@@ -84,6 +87,7 @@ export const config: DeploymentConfig = {
                     status: "inactive",
                     withSubDistrictSupport: false,
                     description: "Heatwave intensity and duration analysis with temperature data",
+                    rootIndicatorSlug: "heat-risk-score",
                 },
             ],
         },
@@ -101,6 +105,7 @@ export const config: DeploymentConfig = {
                     withSubDistrictSupport: true,
                     description:
                         "Comprehensive flood hazard analysis with historical data and current risk assessment",
+                    rootIndicatorSlug: "risk-score",
                 },
                 {
                     name: "Heat",
@@ -109,6 +114,7 @@ export const config: DeploymentConfig = {
                     status: "active",
                     withSubDistrictSupport: false,
                     description: "Heatwave intensity and duration analysis with temperature data",
+                    rootIndicatorSlug: "heat-risk-score",
                 },
             ],
         },
@@ -126,6 +132,7 @@ export const config: DeploymentConfig = {
                     withSubDistrictSupport: true,
                     description:
                         "Comprehensive flood hazard analysis with historical data and current risk assessment",
+                    rootIndicatorSlug: "risk-score",
                 },
                 {
                     name: "Heat",
@@ -134,6 +141,7 @@ export const config: DeploymentConfig = {
                     status: "inactive",
                     withSubDistrictSupport: false,
                     description: "Heatwave intensity and duration analysis with temperature data",
+                    rootIndicatorSlug: "heat-risk-score",
                 },
             ],
         },
@@ -151,6 +159,7 @@ export const config: DeploymentConfig = {
                     withSubDistrictSupport: true,
                     description:
                         "Comprehensive flood hazard analysis with historical data and current risk assessment",
+                    rootIndicatorSlug: "risk-score",
                 },
                 {
                     name: "Heat",
@@ -159,6 +168,7 @@ export const config: DeploymentConfig = {
                     status: "inactive",
                     withSubDistrictSupport: false,
                     description: "Heatwave intensity and duration analysis with temperature data",
+                    rootIndicatorSlug: "heat-risk-score",
                 },
             ],
         },
