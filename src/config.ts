@@ -17,6 +17,7 @@ import appleIcon from "./assets/apple-touch-icon.png";
 import heroBackground from "./assets/brand/heroBackground.png";
 import heroForeground from "./assets/brand/heroForeground.png";
 import logo from "./assets/brand/logo.png";
+import darkLogo from "./assets/brand/logo-dark.svg";
 import favicon from "./assets/favicon.ico";
 import cloudRainIcon from "./assets/icons/cloudRain.svg";
 import sunIcon from "./assets/icons/sun.svg";
@@ -30,6 +31,7 @@ import messagesEn from "./messages/en.json";
 
 export const config: DeploymentConfig = {
     logo,
+    darkLogo,
     heroForeground,
     heroBackground: heroBackground.src,
     favicon: favicon.src,
