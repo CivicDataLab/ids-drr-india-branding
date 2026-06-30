@@ -11,7 +11,7 @@
   },
   "home": {
     "analytics": {
-      "description": "Explore flood-risk profiles at the district and sub-district level across states in India, developed using the IDS-DRR data model"
+      "description": "Explore flood-risk and heat-risk profiles at the district and sub-district level across states in India, developed using the IDS-DRR data model"
     },
     "stories": {
       "heading": "Data Stories",
