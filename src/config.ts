@@ -53,6 +53,12 @@ export const config: DeploymentConfig = {
                     description:
                         "Comprehensive flood hazard analysis with historical data and current risk assessment",
                     rootIndicatorSlug: "risk-score",
+                    views: {
+                        map: "active",
+                        chart: "active",
+                        table: "active",
+                    },
+                    isReportDownloadable: true,
                 },
                 {
                     name: "Heat",
@@ -62,6 +68,12 @@ export const config: DeploymentConfig = {
                     withSubDistrictSupport: false,
                     description: "Heatwave intensity and duration analysis with temperature data",
                     rootIndicatorSlug: "heat-risk-score",
+                    views: {
+                        map: "active",
+                        chart: "inactive",
+                        table: "active",
+                    },
+                    isReportDownloadable: false,
                 },
             ],
         },
@@ -81,6 +93,12 @@ export const config: DeploymentConfig = {
                     description:
                         "Comprehensive flood hazard analysis with historical data and current risk assessment",
                     rootIndicatorSlug: "risk-score",
+                    views: {
+                        map: "active",
+                        chart: "active",
+                        table: "active",
+                    },
+                    isReportDownloadable: true,
                 },
                 {
                     name: "Heat",
@@ -90,6 +108,12 @@ export const config: DeploymentConfig = {
                     withSubDistrictSupport: false,
                     description: "Heatwave intensity and duration analysis with temperature data",
                     rootIndicatorSlug: "heat-risk-score",
+                    views: {
+                        map: "active",
+                        chart: "inactive",
+                        table: "active",
+                    },
+                    isReportDownloadable: false,
                 },
             ],
         },
@@ -108,6 +132,12 @@ export const config: DeploymentConfig = {
                     description:
                         "Comprehensive flood hazard analysis with historical data and current risk assessment",
                     rootIndicatorSlug: "risk-score",
+                    views: {
+                        map: "active",
+                        chart: "active",
+                        table: "active",
+                    },
+                    isReportDownloadable: true,
                 },
                 {
                     name: "Heat",
@@ -117,6 +147,12 @@ export const config: DeploymentConfig = {
                     withSubDistrictSupport: false,
                     description: "Heatwave intensity and duration analysis with temperature data",
                     rootIndicatorSlug: "heat-risk-score",
+                    views: {
+                        map: "active",
+                        chart: "inactive",
+                        table: "active",
+                    },
+                    isReportDownloadable: false,
                 },
             ],
         },
@@ -135,6 +171,12 @@ export const config: DeploymentConfig = {
                     description:
                         "Comprehensive flood hazard analysis with historical data and current risk assessment",
                     rootIndicatorSlug: "risk-score",
+                    views: {
+                        map: "active",
+                        chart: "active",
+                        table: "active",
+                    },
+                    isReportDownloadable: true,
                 },
                 {
                     name: "Heat",
@@ -144,6 +186,12 @@ export const config: DeploymentConfig = {
                     withSubDistrictSupport: false,
                     description: "Heatwave intensity and duration analysis with temperature data",
                     rootIndicatorSlug: "heat-risk-score",
+                    views: {
+                        map: "active",
+                        chart: "inactive",
+                        table: "active",
+                    },
+                    isReportDownloadable: false,
                 },
             ],
         },
@@ -162,6 +210,12 @@ export const config: DeploymentConfig = {
                     description:
                         "Comprehensive flood hazard analysis with historical data and current risk assessment",
                     rootIndicatorSlug: "risk-score",
+                    views: {
+                        map: "active",
+                        chart: "active",
+                        table: "active",
+                    },
+                    isReportDownloadable: true,
                 },
                 {
                     name: "Heat",
@@ -171,6 +225,12 @@ export const config: DeploymentConfig = {
                     withSubDistrictSupport: false,
                     description: "Heatwave intensity and duration analysis with temperature data",
                     rootIndicatorSlug: "heat-risk-score",
+                    views: {
+                        map: "active",
+                        chart: "inactive",
+                        table: "active",
+                    },
+                    isReportDownloadable: false,
                 },
             ],
         },
