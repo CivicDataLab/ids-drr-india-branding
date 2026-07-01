@@ -137,7 +137,7 @@ export const config: DeploymentConfig = {
                         chart: "active",
                         table: "active",
                     },
-                    isReportDownloadable: true,
+                    isReportDownloadable: false,
                 },
                 {
                     name: "Heat",
@@ -176,7 +176,7 @@ export const config: DeploymentConfig = {
                         chart: "active",
                         table: "active",
                     },
-                    isReportDownloadable: true,
+                    isReportDownloadable: false,
                 },
                 {
                     name: "Heat",
@@ -215,7 +215,7 @@ export const config: DeploymentConfig = {
                         chart: "active",
                         table: "active",
                     },
-                    isReportDownloadable: true,
+                    isReportDownloadable: false,
                 },
                 {
                     name: "Heat",
