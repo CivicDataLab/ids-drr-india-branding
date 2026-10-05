@@ -21,6 +21,9 @@ export const CollaboratingPartnerTextOne =
 export const CollaboratingPartnerHPText =
     "The HP SDMA has been constituted under the chairmanship of Chief  Minister of Himachal Pradesh. Revenue Minister has been nominated as  member. Chief Secretary is the Chief Executive Officer of the SDMA. ACS  cum FC (Revenue), Principal Secretary (Home), Principal Secretary (PWD/I  & PH), Principal Secretary (Health) and Director General of Police  have also been notified as member. Additional Chief Secretary (Revenue)  is the Member Secretary of the Authority.";
 
+export const CollaboratingPartnerOSDMAText =
+    "The OSDMA has been constituted under the chairmanship of Chief  Minister of Odisha. Revenue Minister has been nominated as  member. Chief Secretary is the Chief Executive Officer of the OSDMA. ACS  cum FC (Revenue), Principal Secretary (Home), Principal Secretary (PWD/I  & PH), Principal Secretary (Health) and Director General of Police  have also been notified as member. Additional Chief Secretary (Revenue)  is the Member Secretary of the Authority.";
+
 export const TheRockefellerFoundationTextOne =
     "The Rockefeller Foundation is a pioneering philanthropy built on collaborative partnerships at the frontiers of science, technology, and innovation that enable individuals, families, and communities to flourish. We make big bets to promote the well-being of humanity. Today, we are focused on advancing human opportunity and reversing the climate crisis by transforming systems in food, health, energy, and finance. ";
 export const TheRockefellerFoundationTextTwo =

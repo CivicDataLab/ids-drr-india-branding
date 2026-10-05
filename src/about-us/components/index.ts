@@ -7,3 +7,4 @@ export { CollaboratingPartner } from "./collaboratingPartner";
 export { Introduction } from "./introduction";
 export { SupportedBy } from "./supportedBy";
 export { TheTeam } from "./teams";
+export { PastCollaborators } from "./pastCollabrator";

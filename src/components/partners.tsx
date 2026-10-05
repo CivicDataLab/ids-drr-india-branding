@@ -4,6 +4,7 @@ import asdmaLogo from "../assets/partners/ASDMA3.svg";
 import hpsdmaLogo from "../assets/partners/hp.png";
 import pjmcLogo from "../assets/partners/PJMc.png";
 import rockefellerLogo from "../assets/partners/Rockefeller.png";
+import OSDMA_logo from "../assets/partners/OSDMA_logo.jpg";
 
 export function Partners() {
     return (
@@ -104,6 +105,26 @@ export function Partners() {
                             <div className="mx-auto w-full max-w-[221px]">
                                 <Text variant="bodyMd" fontWeight="bold" as="h3">
                                     Himachal Pradesh State Disaster Management Authority
+                                </Text>
+                            </div>
+                        </div>
+                        <div className=" flex flex-col gap-4 text-center">
+                            <div className="flex h-40 flex-col items-center justify-center self-stretch rounded-2 bg-surfaceDefault p-4">
+                                <Image
+                                    src={OSDMA_logo}
+                                    width={192}
+                                    height={72}
+                                    alt="HPSDMA Logo"
+                                    className="h-auto w-full object-contain"
+                                    style={{
+                                        width: "80%",
+                                        height: "auto",
+                                    }}
+                                />
+                            </div>
+                            <div className="mx-auto w-full max-w-[221px]">
+                                <Text variant="bodyMd" fontWeight="bold" as="h3">
+                                    Odisha State Disaster Management Authority
                                 </Text>
                             </div>
                         </div>

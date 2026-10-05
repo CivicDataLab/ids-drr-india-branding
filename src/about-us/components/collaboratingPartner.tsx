@@ -8,8 +8,9 @@ import webIcon from "../../assets/icons/web.svg";
 import xIcon from "../../assets/icons/x.svg";
 import asdmaLogo from "../../assets/partners/ASDMA.png";
 import hpsdmaLogo from "../../assets/partners/hp.png";
-import { CollaboratingPartnerHPText, CollaboratingPartnerTextOne } from "../../consts";
+import { CollaboratingPartnerHPText, CollaboratingPartnerOSDMAText, CollaboratingPartnerTextOne } from "../../consts";
 import { handleRedirect } from "../../utils";
+import OSDMA_logo from "../../assets/partners/OSDMA_logo.jpg";
 
 export function CollaboratingPartner() {
     const [showMore, setShowMore] = useState(false);
@@ -143,6 +144,70 @@ export function CollaboratingPartner() {
                                 <div ref={descriptionRef} className={!showMore ? " line-clamp-2 lg:line-clamp-5" : ""}>
                                     <Text variant="bodyLg" fontWeight="regular" color="default">
                                         {CollaboratingPartnerHPText}
+                                    </Text>
+                                </div>
+
+                                {/* Only show the "Show more" button on medium and small screens */}
+                                {isDescriptionLong && (
+                                    <div className="block md:hidden">
+                                        <Button
+                                            className="self-start p-2"
+                                            onClick={toggleShowMore}
+                                            variant="interactive"
+                                            size="slim"
+                                            kind="tertiary"
+                                        >
+                                            {showMore ? "Show less" : "Show more"}
+                                        </Button>
+                                    </div>
+                                )}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="flex flex-wrap items-center justify-center gap-10 bg-baseIndigoSolid1 p-9 lg:flex-nowrap ">
+                    <div className="flex flex-col items-center gap-4 text-surfaceDefault">
+                        <Image
+                            src={OSDMA_logo}
+                            height={190}
+                            width={230}
+                            alt="OSDMA Logo"
+                            className=" object-contain "
+                        />
+                        <div className="flex flex-row items-center justify-between self-stretch">
+                            <Button
+                                monochrome={true}
+                                kind="tertiary"
+                                onClick={(event) => handleRedirect(event, "https://osdma.nic.in/")}
+                            >
+                                <img src={webIcon.src} alt="HPSDMA website link" />
+                            </Button>
+                            <Button
+                                monochrome={true}
+                                kind="tertiary"
+                                onClick={(event) => handleRedirect(event, "https://osdma.nic.in/")}
+                            >
+                                <img src={linkedinIcon.src} alt="HPSDMA LinkedIn link" />{" "}
+                            </Button>
+                            <Button
+                                monochrome={true}
+                                kind="tertiary"
+                                onClick={(event) => handleRedirect(event, "https://x.com/osdma")}
+                            >
+                                <img src={xIcon.src} alt="HPSDMA Twitter link" />{" "}
+                            </Button>
+                        </div>
+                    </div>
+                    <div className=" flex  flex-col gap-3">
+                        <Text variant="headingXl" fontWeight="medium" color="default" as="h3">
+                            Odisha State Disaster Management Authority
+                        </Text>
+
+                        <div className="flex flex-col gap-5">
+                            <div>
+                                <div ref={descriptionRef} className={!showMore ? " line-clamp-2 lg:line-clamp-5" : ""}>
+                                    <Text variant="bodyLg" fontWeight="regular" color="default">
+                                        {CollaboratingPartnerOSDMAText}
                                     </Text>
                                 </div>
 
