@@ -178,14 +178,14 @@ export function CollaboratingPartner() {
                             <Button
                                 monochrome={true}
                                 kind="tertiary"
-                                onClick={(event) => handleRedirect(event, "https://osdma.nic.in/")}
+                                onClick={(event) => handleRedirect(event, "https://www.osdma.org/")}
                             >
                                 <img src={webIcon.src} alt="HPSDMA website link" />
                             </Button>
                             <Button
                                 monochrome={true}
                                 kind="tertiary"
-                                onClick={(event) => handleRedirect(event, "https://osdma.nic.in/")}
+                                onClick={(event) => handleRedirect(event, "https://www.osdma.org/")}
                             >
                                 <img src={linkedinIcon.src} alt="HPSDMA LinkedIn link" />{" "}
                             </Button>

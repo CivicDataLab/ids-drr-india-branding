@@ -38,7 +38,7 @@ export function TheTeam() {
             {/* DESKTOP  */}
             <div className="container mb-2 flex flex-col gap-8 ">
                 <Text variant="heading2xl" fontWeight="bold" color="default" as="h2">
-                    Co-created by
+                    Created by
                 </Text>
 
                 <div className="flex flex-wrap items-center justify-center gap-10 rounded-2 bg-baseIndigoSolid1 p-9 lg:flex-nowrap ">
