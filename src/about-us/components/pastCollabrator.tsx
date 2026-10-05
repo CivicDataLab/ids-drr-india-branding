@@ -6,17 +6,13 @@ import { useEffect, useRef, useState } from "react";
 import linkedinIcon from "../../assets/icons/linkedin.svg";
 import webIcon from "../../assets/icons/web.svg";
 import xIcon from "../../assets/icons/x.svg";
-import cdlLogo from "../../assets/partners/cdl_logo.svg";
 import ocpLogo from "../../assets/partners/OpenContracting.png";
 import {
-    CDLPartnershipTextOne,
-    CDLPartnershipTextThree,
-    CDLPartnershipTextTwo,
     OpenContractingPartnershipTextOne,
 } from "../../consts";
 import { handleRedirect } from "../../utils";
 
-export function TheTeam() {
+export function PastCollaborators() {
     const [showMore, setShowMore] = useState(false);
     const [isDescriptionLong, setIsDescriptionLong] = useState(false);
 
@@ -38,25 +34,25 @@ export function TheTeam() {
             {/* DESKTOP  */}
             <div className="container mb-2 flex flex-col gap-8 ">
                 <Text variant="heading2xl" fontWeight="bold" color="default" as="h2">
-                    Co-created by
+                    Past Collaborators
                 </Text>
 
                 <div className="flex flex-wrap items-center justify-center gap-10 rounded-2 bg-baseIndigoSolid1 p-9 lg:flex-nowrap ">
                     <div className="flex flex-col items-center gap-4 text-surfaceDefault">
                         <Image
-                            src={cdlLogo}
-                            height={120}
+                            src={ocpLogo}
+                            height={190}
                             width={230}
-                            alt="Civic Data Lab Logo"
+                            alt="Open Contracting Partnership Logo"
                             className=" object-contain "
                         />
                         <div className="flex flex-row items-center justify-between self-stretch">
                             <Button
                                 monochrome={true}
                                 kind="tertiary"
-                                onClick={(event) => handleRedirect(event, "https://civicdatalab.in/")}
+                                onClick={(event) => handleRedirect(event, "https://www.open-contracting.org/")}
                             >
-                                <img src={webIcon.src} alt="CDL website link" />
+                                <img src={webIcon.src} alt="OCP website link" />
                             </Button>
                             <Button
                                 monochrome={true}
@@ -64,43 +60,30 @@ export function TheTeam() {
                                 onClick={(event) =>
                                     handleRedirect(
                                         event,
-                                        "https://www.linkedin.com/company/civicdatalab/mycompany/verification/",
+                                        "https://www.linkedin.com/company/opencontractingpartnership",
                                     )
                                 }
                             >
-                                <img src={linkedinIcon.src} alt="CDL link to LinkedIn" />{" "}
+                                <img src={linkedinIcon.src} alt="OCP link to LinkedIn" />{" "}
                             </Button>
                             <Button
                                 monochrome={true}
                                 kind="tertiary"
-                                onClick={(event) => handleRedirect(event, "https://x.com/CivicDataLab")}
+                                onClick={(event) => handleRedirect(event, "https://twitter.com/opencontracting")}
                             >
-                                <img src={xIcon.src} alt="CDL link to Twitter/X" />{" "}
+                                <img src={xIcon.src} alt="OCP link to Twitter/X" />{" "}
                             </Button>
                         </div>
                     </div>
                     <div className="flex flex-col gap-3">
                         <Text variant="headingXl" fontWeight="medium" color="default" as="h3">
-                            CivicDataLab{" "}
+                            Open Contracting Partnership
                         </Text>
                         <div className="flex flex-col gap-5">
-                            <Text variant="bodyLg" fontWeight="regular" color="default">
-                                {CDLPartnershipTextOne}
-                            </Text>
-                            {/* --------------  */}
-
                             <div>
                                 <div ref={descriptionRef} className={!showMore ? " line-clamp-2 lg:line-clamp-5" : ""}>
                                     <Text variant="bodyLg" fontWeight="regular" color="default">
-                                        {CDLPartnershipTextTwo} {CDLPartnershipTextThree}
-                                        <a
-                                            href="https://civicdatalab.in/"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            className="text-link underline"
-                                        >
-                                            www.civicdatalab.in
-                                        </a>{" "}
+                                        {OpenContractingPartnershipTextOne}
                                     </Text>
                                 </div>
 
@@ -119,11 +102,9 @@ export function TheTeam() {
                                     </div>
                                 )}
                             </div>
-                            {/* --------------  */}
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
     );
