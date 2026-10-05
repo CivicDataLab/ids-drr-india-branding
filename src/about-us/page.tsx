@@ -1,4 +1,11 @@
-import { About, CollaboratingPartner, Introduction, SupportedBy, TheTeam } from "./components";
+import {
+    About,
+    CollaboratingPartner,
+    Introduction,
+    PastCollaborators,
+    SupportedBy,
+    TheTeam,
+} from "./components";
 
 export function AboutPage() {
     return (
@@ -8,6 +15,7 @@ export function AboutPage() {
             <CollaboratingPartner />
             <SupportedBy />
             <TheTeam />
+            <PastCollaborators />
         </main>
     );
 }
