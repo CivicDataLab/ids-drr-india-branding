@@ -1,6 +1,6 @@
 import { Text } from "opub-ui";
 
-import { IntroTextContentOne, IntroTextContentThree, IntroTextContentTwo } from "../../consts";
+import { IntroTextContentOne, IntroTextContentTwo } from "../../consts";
 
 export const Introduction = () => {
     return (
@@ -15,9 +15,6 @@ export const Introduction = () => {
                     </Text>
                     <Text variant="bodyLg" fontWeight="regular" color="default">
                         {IntroTextContentTwo}
-                    </Text>
-                    <Text variant="bodyLg" fontWeight="regular" color="default">
-                        {IntroTextContentThree}
                     </Text>
                 </div>
             </div>

@@ -12,9 +12,7 @@ export const IntroTextContentOne =
     "Intelligent Data Solution for Disaster Risk Reduction (IDS-DRR) is an open-source platform that helps state-level and district-level Disaster Management Authorities to make timely data-driven decisions, prioritise expenditure of public funds and conduct public procurement in a manner that strengthens long-term disaster risk reduction and protects the most vulnerable people from the adverse effects of extreme weather events and climate change. ";
 export const IntroTextContentTwo =
     "In this platform, we bring together diverse high-value datasets from satellite, environmental, social, economic, demographic, infrastructure, loss & damages to data regarding government response to derive timely insights. ";
-export const IntroTextContentThree =
-    "This 4-year project led by CivicDataLab & Open Contracting Partnership is planned to improve disaster risk reduction processes & practices in the state of Assam. It is supported by The Rockefeller Foundation.";
-
+    
 export const CollaboratingPartnerTextOne =
     "The Assam State Disaster Management Authority was notified in the year 2007 with the adoption of the Disaster Management Act in the year 2006. Honourable Chief Minister, Assam is its Chairperson and Honorable Minister Revenue and Disaster Management is its Vice Chairperson. To execute the mandate of the Authority the State Executive Committee with the Chief Secretary, Assam as its Chairperson has also been notified as per provision of the Disaster Management Act. The ASDMA Secretariat with officers, consultants and employees, for carrying out the functions of the State Authority, became fully functional in the year 2010. ASDMA has also notified the District Disaster Management Authority in all the 33 districts of Assam and placed officers for carrying out disaster management activities at the district.";
 
